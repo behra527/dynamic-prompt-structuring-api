@@ -14,15 +14,15 @@ The Dynamic Prompt Structuring API demonstrates how to build a structured LLM ap
 
 ### Key Features
 
-* **Dynamic prompt construction** — organizes input into structured prompts for clinical note generation.
-* **LLM integration** — connects to an OpenAI-compatible API provider.
-* **Request validation** — validates incoming data using Pydantic schemas.
-* **Response validation** — checks generated clinical note responses before returning them.
-* **API key authentication** — protects the note-generation endpoint.
-* **Request size protection** — limits incoming request size through custom middleware.
-* **Error handling and logging** — handles API and validation errors with structured application logging.
-* **Automated testing** — tests API behavior, prompt construction, schemas, and validation logic.
-* **Interactive API documentation** — provides Swagger UI through FastAPI.
+* **Dynamic prompt construction**  organizes input into structured prompts for clinical note generation.
+* **LLM integration**  connects to an OpenAI-compatible API provider.
+* **Request validation**  validates incoming data using Pydantic schemas.
+* **Response validation**  checks generated clinical note responses before returning them.
+* **API key authentication**  protects the note-generation endpoint.
+* **Request size protection**  limits incoming request size through custom middleware.
+* **Error handling and logging**  handles API and validation errors with structured application logging.
+* **Automated testing**  tests API behavior, prompt construction, schemas, and validation logic.
+* **Interactive API documentation**  provides Swagger UI through FastAPI.
 
 ## Architecture
 
